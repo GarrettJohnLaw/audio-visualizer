@@ -1,10 +1,11 @@
 import './App.css'
-import AudioVisualizer from './Libs/Vizualizer'
+import AudioVisualizerWithImage from './Libs/VisualiserWithImage'
+// import AudioVisualizer from './Libs/Vizualizer'
 
 function App() {
   return (
     <>
-      <AudioVisualizer />
+      <AudioVisualizerWithImage />
     </>
   )
 }
